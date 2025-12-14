@@ -35,3 +35,14 @@ userRole === "admin"
 
     const voterStatus = age >= 18 ? "eligible to vote." : "not eligible to vote.";
     console.log("You are", voterStatus);
+
+    switch (userRole) {
+        case "admin":
+            console.log("Admin Access Granted.");
+            break;
+        case "guest":
+            console.log("Guest Access.");
+            break;
+        default:
+            console.log("Unknown Role.");
+    }

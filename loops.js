@@ -14,3 +14,18 @@ for (let i = 0; i < prices.length; i++) {
 // 4. The Receipt
 console.log("--------------------");
 console.log(`Final Total Bill: ₹${total}`);
+
+// 1. Setup
+let myMoney = 500;
+let itemPrice = 150;
+
+// 2. The Loop (Runs ONLY if money is enough)
+console.log("--- STARTING SHOPPING SPREE ---");
+
+while (myMoney >= itemPrice) {
+    console.log(`I have ₹${myMoney}. Buying item...`);
+    myMoney = myMoney - itemPrice; // Pay the money
+}
+
+// 3. The End
+console.log(`I am broke! Money left: ₹${myMoney}`);

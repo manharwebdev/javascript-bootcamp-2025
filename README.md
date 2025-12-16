@@ -24,3 +24,11 @@ if (age >= 18) {
 
 // Pro Way (Ternary)
 const status = age >= 18 ? "Eligible" : "Not Eligible";
+
+### Day 2: Arrays & Loops
+- [x] Arrays (`push`, `pop`, `splice`)
+- [x] For Loops (Iterating lists)
+- [x] While Loops (Conditional looping)
+- [x] Nested Loops (Clock simulation)
+- [x] The Accumulator Pattern (Summing totals)
+
